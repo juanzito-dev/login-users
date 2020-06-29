@@ -28,3 +28,33 @@ C:\Users\admin\Desktop\loginSystem-master\GestionDeUsuarios\obj\Debug\GestionDeU
 C:\Users\admin\Desktop\loginSystem-master\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.exe
 C:\Users\admin\Desktop\loginSystem-master\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.xml
 C:\Users\admin\Desktop\loginSystem-master\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.pdb
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\GestionDeUsuarios.exe.config
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\GestionDeUsuarios.exe
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\GestionDeUsuarios.pdb
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\GestionDeUsuarios.xml
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\MySql.Data.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\Google.Protobuf.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\Zstandard.Net.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\Renci.SshNet.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\bin\Debug\MySql.Data.xml
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.vbprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.exe.config
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.FormLogin.resources
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.FormRegistro.resources
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.formPanel.resources
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.Resources.resources
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.vbproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.vbproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.vbproj.CopyComplete
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.exe
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.xml
+C:\Users\ADMIN\Desktop\Gestion de Usuarios\GestionDeUsuarios\obj\Debug\GestionDeUsuarios.pdb

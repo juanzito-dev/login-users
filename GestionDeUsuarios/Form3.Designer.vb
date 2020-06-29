@@ -37,6 +37,9 @@ Partial Class formPanel
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -45,22 +48,22 @@ Partial Class formPanel
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(274, 3)
+        Me.DataGridView1.Location = New System.Drawing.Point(274, 13)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(341, 269)
+        Me.DataGridView1.Size = New System.Drawing.Size(341, 325)
         Me.DataGridView1.TabIndex = 0
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(80, 67)
+        Me.TextBox1.Location = New System.Drawing.Point(80, 134)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(171, 20)
         Me.TextBox1.TabIndex = 1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(21, 98)
+        Me.Button1.Location = New System.Drawing.Point(21, 165)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(110, 29)
         Me.Button1.TabIndex = 2
@@ -69,14 +72,14 @@ Partial Class formPanel
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(145, 197)
+        Me.TextBox3.Location = New System.Drawing.Point(145, 264)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(106, 20)
         Me.TextBox3.TabIndex = 4
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(18, 230)
+        Me.Button2.Location = New System.Drawing.Point(18, 297)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(230, 29)
         Me.Button2.TabIndex = 5
@@ -87,7 +90,7 @@ Partial Class formPanel
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(11, 201)
+        Me.Label1.Location = New System.Drawing.Point(11, 268)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(134, 16)
         Me.Label1.TabIndex = 6
@@ -97,7 +100,7 @@ Partial Class formPanel
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(11, 98)
+        Me.Label3.Location = New System.Drawing.Point(11, 115)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(23, 16)
         Me.Label3.TabIndex = 8
@@ -106,7 +109,7 @@ Partial Class formPanel
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(80, 95)
+        Me.TextBox4.Location = New System.Drawing.Point(80, 162)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(128, 20)
@@ -123,6 +126,9 @@ Partial Class formPanel
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.Button4)
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.TextBox2)
         Me.Panel2.Controls.Add(Me.DataGridView1)
         Me.Panel2.Controls.Add(Me.Button3)
         Me.Panel2.Controls.Add(Me.Label7)
@@ -143,7 +149,7 @@ Partial Class formPanel
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(137, 98)
+        Me.Button3.Location = New System.Drawing.Point(137, 165)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(114, 29)
         Me.Button3.TabIndex = 14
@@ -154,7 +160,7 @@ Partial Class formPanel
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(10, 164)
+        Me.Label7.Location = New System.Drawing.Point(10, 231)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(221, 24)
         Me.Label7.TabIndex = 13
@@ -164,7 +170,7 @@ Partial Class formPanel
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(11, 68)
+        Me.Label6.Location = New System.Drawing.Point(11, 135)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(63, 16)
         Me.Label6.TabIndex = 12
@@ -174,7 +180,7 @@ Partial Class formPanel
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(9, 30)
+        Me.Label5.Location = New System.Drawing.Point(9, 97)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(201, 24)
         Me.Label5.TabIndex = 11
@@ -184,16 +190,42 @@ Partial Class formPanel
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(182, 71)
+        Me.Label4.Location = New System.Drawing.Point(182, 138)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(0, 39)
         Me.Label4.TabIndex = 0
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(80, 17)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(171, 20)
+        Me.TextBox2.TabIndex = 16
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(10, 13)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(68, 24)
+        Me.Label8.TabIndex = 17
+        Me.Label8.Text = "Buscar"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(21, 48)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(227, 23)
+        Me.Button4.TabIndex = 18
+        Me.Button4.Text = "Buscar"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'formPanel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(630, 304)
+        Me.ClientSize = New System.Drawing.Size(630, 353)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "formPanel"
@@ -221,4 +253,7 @@ Partial Class formPanel
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TextBox2 As TextBox
 End Class

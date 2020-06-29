@@ -189,4 +189,51 @@ Public Class formPanel
         conexion.Close()
 
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim busqueda As String
+        busqueda = TextBox2.Text
+
+        BusquedaUser(busqueda, conexion)
+
+    End Sub
+
+
+    Sub BusquedaUser(ByVal busqueda As String, ByVal con As MySqlConnection)
+        Dim ds As DataSet = New DataSet
+        Dim cmd As New MySqlCommand
+        Dim adaptador As MySqlDataAdapter = New MySqlDataAdapter
+        Dim readerb As MySqlDataReader
+
+        Try
+            conexion.Open()
+            cmd.Connection = conexion
+            DataGridView1.DataSource = Nothing
+            DataGridView1.Refresh()
+            DataGridView1.Rows.Clear()
+            cmd.CommandText = "SELECT idUsuario,Nombre,Activo FROM usuarios WHERE Nombre LIKE '%" + busqueda + "%' ORDER BY Nombre ASC"
+            cmd.Prepare()
+            readerb = cmd.ExecuteReader()
+            If (readerb.HasRows) Then
+                readerb.Close()
+                adaptador.SelectCommand = cmd
+                adaptador.Fill(ds, "Tabla")
+
+                DataGridView1.DataSource = ds
+                DataGridView1.DataMember = "Tabla"
+
+
+
+
+            Else
+                readerb.Close()
+                MessageBox.Show("No hay coincidencias.")
+
+            End If
+
+            conexion.Close()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
 End Class
